@@ -1,0 +1,34 @@
+在下面模型表里CONTENT字段里，把 “要修改的表” 修改库 “加前缀cbbi_“的表
+---------------------------------
+td_bi_analysis_model
+td_bi_chart_model
+td_bi_condition
+td_bi_dashboard_model
+td_bi_htmlcontainer
+td_bi_table_model
+td_bi_storyboard_model
+
+---------------要修改的表，加上cbbi ---------
+dept_cost_subj------------例-------->cbbi_dept_cost_subj
+dept_dict_cost_method-------例------------->cbbi_dept_dict_cost_method
+dept_drgs_income_ordered
+dept_info
+dept_mixture
+dept_ra_period_data
+dept_rau_cost_c
+dept_rau_cost_cost
+dept_rau_cost_emp_c
+dept_rau_cost_emp_l
+dept_rau_cost_emp_num_cx
+dept_rau_cost_equi_c
+dept_rau_cost_equi_l
+dept_rau_cost_l
+dept_rau_cost_mate_c
+dept_rau_cost_mate_l
+dept_rau_cost_method
+dept_rau_income_cost_l
+dept_rau_income_ordered_c
+dept_rau_income_ordered_l
+drgs_dept_type_cost_c
+drgs_drgs
+index_drgs_scheme_bi_rel
